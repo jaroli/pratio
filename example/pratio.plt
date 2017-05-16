@@ -11,7 +11,7 @@ set ylabel "Participation ratio"
 set yrange [0:1]
 set ytics nomirror
 
-set y2label "Density of states (a.u.)" 
+set y2label "Density of states (a.u.)" tc rgb "red"
 set y2tics 
 
 unset key
