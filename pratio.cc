@@ -9,7 +9,7 @@ using namespace std;
 
 fstream infile, outfile;
 string f_in  = "PROCAR";
-string f_out = "prat";
+string f_out = "pratio.out";
 
 void fmt()
 {
@@ -60,9 +60,9 @@ int main()
   skip(3, "word");
   infile >> nions;
 
-  cout << nkpoints << endl;
-  cout << nbands << endl;
-  cout << nions << endl;
+  cout << "nkpoints\t" << nkpoints << endl;
+  cout << "nbands\t" << nbands << endl;
+  cout << "nions\t" << nions << endl;
   getline(infile, line);
 
   for (i = 0; i < nkpoints; i++)

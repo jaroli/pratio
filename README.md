@@ -13,3 +13,5 @@ Calculates the participation ratio which is a measure of the wavefunction locali
 - now we think there is a typo in G. Kresse and J. Jafner, Phys. Rev. B 55, 7539 (1997)
 
 
+# Example
+![amorphous silicon](./example/pratio.png)
