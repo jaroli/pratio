@@ -1,17 +1,20 @@
 Calculates the participation ratio which is a measure of the wavefunction localisation.
+This is usefull when studying amorphous semiconductors, where states close to the valence and
+conduction band edge are localised.
+The program is a post-processing tool that reads output from the [Vienna Ab initio Simulation Package](http://vasp.at).
 
 # Installation
+Just compile with `g++ -o pratio pratio.cc` and put the executable in your `bin` folder.
 
--input files: PROCAR
--the numbers in PROCAR are not amplitudes but squares of amplitudes !
- thus they are proportional to charge
--definition of participation ratio from 
- R.J.Bell and P. Dean, Localization of phonons in vitreous silica and related glasses
- in R.W.Douglas (ed.) Amorphous materials, p.443-451, 1972
+# Usage
+One first has to perform a VASP calculation that will generate the PROCAR file.
+This is achieved by including RWIGS in your INCAR file. More details can be found
+in the [VASP manual](http://cms.mpi.univie.ac.at/vasp/vasp/PROCAR_file.html).
 
--  p = M1*M1 / M0*M2
-- now we think there is a typo in G. Kresse and J. Jafner, Phys. Rev. B 55, 7539 (1997)
-
+The program will read the PROCAR and calculate the participation ratio based on
+the definition by R.J. Bell and P. Dean in Localization of phonons in vitreous
+silica and related glasses in R.W. Douglas (ed.) Amorphous materials, p.443-451,
+(1972). The output file is `pratio.out`.
 
 # Example
 ![amorphous silicon](./example/pratio.png)

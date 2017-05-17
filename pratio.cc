@@ -83,12 +83,6 @@ int main()
         infile >> tot; 
         getline (infile, line); //jump to next line
 
-//        s = s*s; p = p*p; d = d*d;
-//        suma = suma + s + p + d;
-//        sumb = sumb + s*s + p*p + d*d;
-
-//        suma = suma + s + p + d;
-//        sumb = sumb + s*s + p*p + d*d;
         suma = suma + tot;
         sumb = sumb + tot*tot;
       }
