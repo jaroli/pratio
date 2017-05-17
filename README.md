@@ -17,6 +17,4 @@ silica and related glasses in R.W. Douglas (ed.) Amorphous materials, p.443-451,
 (1972). The output file is `pratio.out`.
 
 # Example
-![amorphous silicon](./example/pratio.png)
-
 <img src="./example/pratio.png" width="700">
