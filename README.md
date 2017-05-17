@@ -1,6 +1,6 @@
-Calculates the participation ratio which is a measure of the wavefunction localisation.
+Calculates the participation ratio which is a measure of the wavefunction localization.
 This is usefull when studying amorphous semiconductors, where states close to the valence and
-conduction band edge are localised.
+conduction band edge are localized.
 The program is a post-processing tool that reads output from the [Vienna Ab initio Simulation Package](http://vasp.at).
 
 # Installation
