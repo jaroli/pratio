@@ -19,4 +19,4 @@ silica and related glasses in R.W. Douglas (ed.) Amorphous materials, p.443-451,
 # Example
 ![amorphous silicon](./example/pratio.png)
 
-<img src="./example/pratio.png" width="1000">
+<img src="./example/pratio.png" width="700">
